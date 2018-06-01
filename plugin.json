@@ -1,8 +1,8 @@
 {
-  "id": "nodebb-plugin-shoutbox",
+  "id": "nodebb-plugin-shoutbox-cswild",
   "name": "Shoutbox",
   "description": "NodeBB Plugin Shoutbox",
-  "url": "https://github.com/Schamper/nodebb-plugin-shoutbox",
+  "url": "https://github.com/Master-GitHub/nodebb-plugin-shoutbox-cswild",
   "library": "./library.js",
   "hooks": [
     { "hook": "static:app.load", "method": "init.load" },
