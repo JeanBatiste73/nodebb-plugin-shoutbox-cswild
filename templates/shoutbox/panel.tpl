@@ -2,7 +2,7 @@
     <div class="panel panel-default">
         <div class="panel-heading">
             <h3 class="panel-title">
-                <a href="/shoutbox" title="Shoutbox">Shoutbox</a>
+                Shoutbox
             </h3>
 
             <div class="btn-group pull-right">
