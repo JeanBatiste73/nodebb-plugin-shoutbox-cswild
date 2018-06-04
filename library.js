@@ -93,8 +93,12 @@ Shoutbox.widget.render = function(widget, callback) {
 			if (!err && result && result.settings && parseInt(result.settings['shoutbox:toggles:hide'], 10) == 1) {
 				data.hiddenStyle = 'display: none;';
 			}
+			var currentTime = Date.now();
+			app.render('shoutbox/panel', { html: '<div id="tablediv"></div>', time: currentTime }, function(err, html){  
+				widget.html = html;
+				callback(err, widget);
+			});
 
-			app.render('shoutbox/panel', data, callback);
 		});
 	});
 };
